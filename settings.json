@@ -33,7 +33,8 @@
                 "revealInExplorer",
             ],
         },
-    ]
+    ],
+    "explorer.confirmDelete": false
     // Some Example about keybinds.
     //         {
     //           "before": ["<space>"],

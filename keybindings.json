@@ -266,4 +266,14 @@
         "command": "-toggleSearchPreserveCase",
         "when": "searchViewletFocus"
     },
+    {
+        "key": "ctrl+m",
+        "command": "acceptSelectedCodeAction",
+        "when": "codeActionMenuVisible"
+    },
+    {
+        "key": "enter",
+        "command": "-acceptSelectedCodeAction",
+        "when": "codeActionMenuVisible"
+    },
 ]
