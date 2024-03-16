@@ -1,4 +1,11 @@
 {
+    "vim.commandLineModeKeyBindings": [],
+    "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "Monokai",
+    "window.menuBarVisibility": "hidden",
+    "window.customMenuBarAltFocus": false,
+    "window.enableMenuBarMnemonics": false,
+    "editor.lineNumbers": "relative",
     "vim.handleKeys": {
         "<C-t>": false,
         "<C-d>": true,
@@ -16,14 +23,17 @@
             ]
         },
     ],
-    "vim.commandLineModeKeyBindings": [],
-    "workbench.colorTheme": "Monokai",
-    "window.menuBarVisibility": "hidden",
-    "window.customMenuBarAltFocus": false,
-    "window.enableMenuBarMnemonics": false,
     "vim.insertModeKeyBindingsNonRecursive": [],
-    "editor.lineNumbers": "relative",
     "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.quickOpen",
+            ],
+        },
         {
             "before": [
                 "<leader>",

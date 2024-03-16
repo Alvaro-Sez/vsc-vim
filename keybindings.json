@@ -286,5 +286,66 @@
         "command": "-revealReference",
         "when": "listFocus && referenceSearchVisible && !inputFocus && !treeElementCanCollapse && !treeElementCanExpand && !treestickyScrollFocused"
     },
-    { "key": "ctrl+m", "command": "-editor.action.toggleTabFocusMode" }
+    {
+        "key": "ctrl+m",
+        "command": "-editor.action.toggleTabFocusMode"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "notebook.cell.edit",
+        "when": "notebookCellListFocused && notebookEditable && !editorHoverFocused && !inputFocus"
+    },
+    {
+        "key": "enter",
+        "command": "-notebook.cell.edit",
+        "when": "notebookCellListFocused && notebookEditable && !editorHoverFocused && !inputFocus"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "list.select",
+        "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+    },
+    {
+        "key": "enter",
+        "command": "-list.select",
+        "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "repl.action.acceptInput",
+        "when": "inDebugRepl && textInputFocus"
+    },
+    {
+        "key": "enter",
+        "command": "-repl.action.acceptInput",
+        "when": "inDebugRepl && textInputFocus"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "breadcrumbs.selectFocused",
+        "when": "breadcrumbsActive && breadcrumbsVisible"
+    },
+    {
+        "key": "enter",
+        "command": "-breadcrumbs.selectFocused",
+        "when": "breadcrumbsActive && breadcrumbsVisible"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "iconSelectBox.selectFocused",
+        "when": "iconSelectBoxFocus"
+    },
+    {
+        "key": "enter",
+        "command": "-iconSelectBox.selectFocused",
+        "when": "iconSelectBoxFocus"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpen"
+    }
 ]
