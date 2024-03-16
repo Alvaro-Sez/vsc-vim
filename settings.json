@@ -42,6 +42,15 @@
                 "workbench.action.copy",
             ],
         },
+        {
+            "before": [
+                "<leader>",
+                "r"
+            ],
+            "commands": [
+                "editor.action.quickFix",
+            ],
+        },
     ],
     "explorer.confirmDelete": false
     // Some Example about keybinds.
