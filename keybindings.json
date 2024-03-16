@@ -276,4 +276,14 @@
         "command": "-acceptSelectedCodeAction",
         "when": "codeActionMenuVisible"
     },
+    {
+        "key": "ctrl+m",
+        "command": "revealReference",
+        "when": "listFocus && referenceSearchVisible && !inputFocus && !treeElementCanCollapse && !treeElementCanExpand && !treestickyScrollFocused"
+    },
+    {
+        "key": "enter",
+        "command": "-revealReference",
+        "when": "listFocus && referenceSearchVisible && !inputFocus && !treeElementCanCollapse && !treeElementCanExpand && !treestickyScrollFocused"
+    },
 ]
