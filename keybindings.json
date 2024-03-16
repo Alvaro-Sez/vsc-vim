@@ -41,11 +41,6 @@
         "when": "editorTextFocus && vim.active && vim.mode != 'Insert'"
     },
     {
-        "key": "alt+p",
-        "command": "editor.action.clipboardPasteAction",
-        "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
-    },
-    {
         "key": "alt+o",
         "command": "editor.action.insertLineAfter",
         "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
@@ -255,5 +250,20 @@
         "key": "ctrl+x",
         "command": "-filesExplorer.cut",
         "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "alt+p",
+        "command": "-keybindings.editor.toggleSortByPrecedence",
+        "when": "inKeybindings"
+    },
+    {
+        "key": "alt+p",
+        "command": "-togglePreserveCase",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+p",
+        "command": "-toggleSearchPreserveCase",
+        "when": "searchViewletFocus"
     },
 ]
