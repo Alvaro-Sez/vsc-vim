@@ -33,6 +33,15 @@
                 "revealInExplorer",
             ],
         },
+        {
+            "before": [
+                "<leader>",
+                "y"
+            ],
+            "commands": [
+                "workbench.action.copy",
+            ],
+        },
     ],
     "explorer.confirmDelete": false
     // Some Example about keybinds.
