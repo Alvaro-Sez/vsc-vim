@@ -286,4 +286,5 @@
         "command": "-revealReference",
         "when": "listFocus && referenceSearchVisible && !inputFocus && !treeElementCanCollapse && !treeElementCanExpand && !treestickyScrollFocused"
     },
+    { "key": "ctrl+m", "command": "-editor.action.toggleTabFocusMode" }
 ]
