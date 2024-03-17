@@ -345,6 +345,7 @@
     },
     {
         "key": "ctrl+m",
-        "command": "workbench.action.acceptSelectedQuickOpenItem"
+        "command": "workbench.action.acceptSelectedQuickOpenItem",
+        "when": "inQuickOpen"
     },
 ]
