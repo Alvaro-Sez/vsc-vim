@@ -74,7 +74,9 @@
             ],
         },
     ],
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "editor.fontSize": 16,
+    "window.zoomLevel": 1
     // Some Example about keybinds.
     //         {
     //           "before": ["<space>"],
