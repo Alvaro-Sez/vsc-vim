@@ -58,6 +58,15 @@
         {
             "before": [
                 "<leader>",
+                "t"
+            ],
+            "commands": [
+                "editor.action.marker.nextInFiles",
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
                 "r"
             ],
             "commands": [

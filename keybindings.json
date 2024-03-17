@@ -31,11 +31,6 @@
         "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
     },
     {
-        "key": "ctrl+t",
-        "command": "editor.action.marker.nextInFiles",
-        "when": "editorTextFocus && vim.active && vim.mode != 'Insert'"
-    },
-    {
         "key": "shift+k",
         "command": "editor.action.showHover",
         "when": "editorTextFocus && vim.active && vim.mode != 'Insert'"
