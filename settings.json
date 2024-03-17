@@ -6,6 +6,9 @@
     "window.customMenuBarAltFocus": false,
     "window.enableMenuBarMnemonics": false,
     "editor.lineNumbers": "relative",
+    "window.restoreFullscreen":true,
+    "window.newWindowDimensions": "fullscreen",
+    "vim.leader":"<space>",
     "vim.handleKeys": {
         "<C-t>": false,
         "<C-d>": true,
