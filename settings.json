@@ -1,5 +1,4 @@
 {
-    
     "vim.commandLineModeKeyBindings": [],
     "workbench.editor.enablePreview": false,
     "workbench.colorTheme": "Monokai",
@@ -53,7 +52,7 @@
                 "y"
             ],
             "commands": [
-                "editor.action.clipboardCopyAction"
+                "editor.action.copySelection"
             ],
         },
         {
